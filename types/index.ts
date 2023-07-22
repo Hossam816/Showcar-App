@@ -10,9 +10,13 @@ export interface CustomBtnProps {
     isDisabled: boolean;
 
 }
-
+export interface optionProps {
+    title: string;
+    value: string;
+}
 export interface CustomFilterProps {
-    title: string
+    title: string;
+    options: optionProps[];
 }
 
 export interface SearchManuFacturerProps {
@@ -41,4 +45,9 @@ export interface FilterProps {
     fuel: string;
     limit: number;
     model: string;
+}
+
+export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
 }
