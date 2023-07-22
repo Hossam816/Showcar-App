@@ -7,6 +7,7 @@ import SearchBar from "./SearchBar";
 import SearchMenuFacturer from "./SearchMenuFacturer";
 import CarCard from "./CarCard";
 import CarCardDetailed from "./CarCardDetailed";
+import ShowMore from "./ShowMore";
 export {
   Hero,
   CustomBtn,
@@ -17,4 +18,5 @@ export {
   SearchMenuFacturer,
   CarCard,
   CarCardDetailed,
+  ShowMore,
 };
